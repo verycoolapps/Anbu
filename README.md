@@ -6,6 +6,7 @@
 [![Files](https://img.shields.io/badge/files-333-4a9d8e?style=flat-square)](#architecture)
 [![Divisions](https://img.shields.io/badge/divisions-15-c9a227?style=flat-square)](#architecture)
 [![License](https://img.shields.io/badge/scope-public%20sources%20only-c0392b?style=flat-square)](#safety--ethics)
+[![License](https://img.shields.io/badge/license-proprietary%20%7C%20all%20rights%20reserved-c0392b?style=flat-square)](LICENSE)
 [![Built by](https://img.shields.io/badge/VeryCoolApps-PT.%20Agra%20Karya%20Digital-4a9d8e?style=flat-square)](https://www.vcadeveloper.com)
 
 > **Advanced National & Bureaucratic Understanding**
@@ -136,6 +137,10 @@ anbu_repo/
 
 Read `core/` first. Pull division files only when the task scope requires them. A geopolitical election forecast needs `core/`, `political/`, `analytics/`, and `reporting/` — not `geoint/` unless terrain or imagery is relevant. See [`anbu/manifests/dependency_graph.json`](anbu/manifests/dependency_graph.json) for cross-division dependencies.
 
+## License
+
+ANBU OSINT is proprietary software. © 2026 PT. Agra Karya Digital (VeryCoolApps). All rights reserved. See [LICENSE](LICENSE) for terms.
+
 ## Credit
 
 Designed and engineered by **VeryCoolApps** — PT. Agra Karya Digital.
@@ -157,6 +162,7 @@ ANBU OSINT · Advanced National & Bureaucratic Understanding · v1.0
 [![Berkas](https://img.shields.io/badge/berkas-333-4a9d8e?style=flat-square)](#arsitektur)
 [![Divisi](https://img.shields.io/badge/divisi-15-c9a227?style=flat-square)](#arsitektur)
 [![Cakupan](https://img.shields.io/badge/cakupan-sumber%20publik%20saja-c0392b?style=flat-square)](#keamanan--etika)
+[![Lisensi](https://img.shields.io/badge/lisensi-proprietary%20%7C%20hak%20cipta%20dilindungi-c0392b?style=flat-square)](LICENSE)
 [![Oleh](https://img.shields.io/badge/VeryCoolApps-PT.%20Agra%20Karya%20Digital-4a9d8e?style=flat-square)](https://www.vcadeveloper.com)
 
 > **Advanced National & Bureaucratic Understanding**
@@ -282,6 +288,10 @@ anbu_repo/
 ## Progressive Disclosure
 
 Baca `core/` terlebih dahulu. Tarik berkas divisi hanya ketika cakupan tugas membutuhkannya. Prakiraan geopolitik pemilu memerlukan `core/`, `political/`, `analytics/`, dan `reporting/` — bukan `geoint/` kecuali medan atau citra relevan. Lihat [`anbu/manifests/dependency_graph.json`](anbu/manifests/dependency_graph.json) untuk dependensi lintas divisi.
+
+## Lisensi
+
+ANBU OSINT adalah perangkat lunak proprietari. © 2026 PT. Agra Karya Digital (VeryCoolApps). Hak cipta dilindungi. Lihat [LICENSE](LICENSE) untuk ketentuan.
 
 ## Kredit
 
