@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t d">
+<title id="t">ANBU OSINT System Architecture</title>
+<desc id="d">Dark-themed diagram of the ANBU pipeline: user query through classification, 15 divisions, OSINT collection, verification, analytics, quality control, safety review, and intelligence report.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0d1f38"/>
+    <stop offset="1" stop-color="#050a14"/>
+  </linearGradient>
+  <linearGradient id="nodeFill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#12294a"/>
+    <stop offset="1" stop-color="#0a1628"/>
+  </linearGradient>
+  <radialGradient id="jadeGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#4a9d8e" stop-opacity="0.18"/>
+    <stop offset="1" stop-color="#4a9d8e" stop-opacity="0"/>
+  </radialGradient>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#c9a227"/>
+  </marker>
+  <marker id="arrowJade" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4a9d8e"/>
+  </marker>
+</defs>
+
+<!-- background -->
+<rect width="1200" height="800" fill="url(#bg)"/>
+<rect width="1200" height="800" fill="#050a14" opacity="0.35"/>
+
+<!-- subtle grid -->
+<g stroke="#1a2f4a" stroke-width="1" opacity="0.5">
+  <path d="M60 0V800M120 0V800M180 0V800M240 0V800M300 0V800M360 0V800M420 0V800M480 0V800M540 0V800M600 0V800M660 0V800M720 0V800M780 0V800M840 0V800M900 0V800M960 0V800M1020 0V800M1080 0V800M1140 0V800"/>
+  <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200M0 640H1200M0 720H1200"/>
+</g>
+
+<!-- five-element accents (wood/fire/earth/metal/water) -->
+<g opacity="0.9">
+  <!-- wood: growing vertical -->
+  <g transform="translate(70,90)">
+    <rect x="-3" y="0" width="6" height="34" fill="#4a9d8e"/>
+    <path d="M0 0 C-14 -10 -18 -26 0 -38 C18 -26 14 -10 0 0 Z" fill="#4a9d8e" opacity="0.85"/>
+    <path d="M0 -14 C-10 -22 -12 -32 0 -40 C12 -32 10 -22 0 -14 Z" fill="#4a9d8e" opacity="0.6"/>
+  </g>
+  <!-- fire: triangle flame -->
+  <g transform="translate(1120,90)">
+    <path d="M0 0 C-16 -6 -18 -22 -8 -34 C-6 -22 0 -18 0 -30 C6 -18 12 -22 14 -34 C22 -22 18 -6 0 0 Z" fill="#c0392b" opacity="0.9"/>
+    <circle cx="0" cy="-8" r="4" fill="#e07a5f" opacity="0.8"/>
+  </g>
+  <!-- earth: square with inner square -->
+  <g transform="translate(70,700)">
+    <rect x="-16" y="-16" width="32" height="32" fill="none" stroke="#c9a227" stroke-width="2" opacity="0.8"/>
+    <rect x="-7" y="-7" width="14" height="14" fill="#c9a227" opacity="0.5"/>
+  </g>
+  <!-- metal: circle + line -->
+  <g transform="translate(1120,700)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#c9a227" stroke-width="2" opacity="0.8"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#c9a227" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="-15" x2="0" y2="15" stroke="#c9a227" stroke-width="2" opacity="0.6"/>
+  </g>
+  <!-- water: wave -->
+  <g transform="translate(595,742)" opacity="0.7">
+    <path d="M-60 0 Q-45 -12 -30 0 T0 0 T30 0 T60 0" fill="none" stroke="#4a9d8e" stroke-width="2.5"/>
+    <path d="M-45 10 Q-30 -2 -15 10 T15 10 T45 10" fill="none" stroke="#4a9d8e" stroke-width="2" opacity="0.6"/>
+  </g>
+</g>
+
+<!-- title -->
+<text x="600" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#c9a227" letter-spacing="6">ANBU OSINT</text>
+<text x="600" y="76" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8fa3bf" letter-spacing="3">ADVANCED NATIONAL &amp; BUREAUCRATIC UNDERSTANDING · SYSTEM ARCHITECTURE</text>
+<line x1="420" y1="88" x2="780" y2="88" stroke="#c9a227" stroke-width="1" opacity="0.5"/>
+
+<!-- flow nodes: main pipeline -->
+<g font-family="Helvetica, Arial, sans-serif">
+  <!-- USER QUERY -->
+  <g>
+    <rect x="40" y="330" width="150" height="56" rx="8" fill="url(#nodeFill)" stroke="#c9a227" stroke-width="1.5"/>
+    <text x="115" y="354" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">USER QUERY</text>
+    <text x="115" y="372" text-anchor="middle" font-size="9" fill="#8fa3bf">strategic question</text>
+  </g>
+  <path d="M190 358 H240" stroke="#c9a227" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- SKILL.md -->
+  <g>
+    <rect x="240" y="330" width="140" height="56" rx="8" fill="url(#nodeFill)" stroke="#c9a227" stroke-width="1.5"/>
+    <text x="310" y="354" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">SKILL.md</text>
+    <text x="310" y="372" text-anchor="middle" font-size="9" fill="#8fa3bf">entry point · doctrine</text>
+  </g>
+  <path d="M380 358 H430" stroke="#c9a227" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- TASK CLASSIFICATION -->
+  <g>
+    <rect x="430" y="330" width="150" height="56" rx="8" fill="url(#nodeFill)" stroke="#c9a227" stroke-width="1.5"/>
+    <text x="505" y="354" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">TASK CLASSIFICATION</text>
+    <text x="505" y="372" text-anchor="middle" font-size="9" fill="#8fa3bf">10-step protocol</text>
+  </g>
+  <path d="M580 358 H640" stroke="#c9a227" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 15 DIVISIONS panel -->
+  <g>
+    <rect x="640" y="180" width="240" height="356" rx="10" fill="#0a1628" stroke="#c9a227" stroke-width="1.5" opacity="0.95"/>
+    <rect x="640" y="180" width="240" height="356" rx="10" fill="url(#jadeGlow)"/>
+    <text x="760" y="208" text-anchor="middle" font-size="13" fill="#c9a227" font-weight="bold" letter-spacing="2">15 DIVISIONS</text>
+    <text x="760" y="226" text-anchor="middle" font-size="9" fill="#8fa3bf">333 reference files</text>
+    <g font-size="10" fill="#b9c6d8">
+      <text x="660" y="252">01 Core Doctrine</text>
+      <text x="660" y="274">02 Political</text>
+      <text x="660" y="296">03 Military &amp; Defense</text>
+      <text x="660" y="318">04 State &amp; Governance</text>
+      <text x="660" y="340">05 Geopolitical</text>
+      <text x="660" y="362">06 OSINT Collection</text>
+      <text x="660" y="384">07 Source Verification</text>
+      <text x="660" y="406">08 Analytics</text>
+      <text x="660" y="428">09 Geospatial (GEOINT)</text>
+      <text x="660" y="450">10 Legal &amp; Ethics</text>
+      <text x="660" y="472">11 Security &amp; Safety</text>
+      <text x="660" y="494">12 Reporting</text>
+      <text x="660" y="516">13 Workflows</text>
+      <text x="844" y="252">14 Manifests</text>
+      <text x="844" y="274">15 Reserved</text>
+      <text x="660" y="548" font-size="8" fill="#5f7391">progressive disclosure:</text>
+      <text x="660" y="562" font-size="8" fill="#5f7391">load only required modules</text>
+    </g>
+    <!-- division grid dots -->
+    <g fill="#4a9d8e" opacity="0.7">
+      <circle cx="836" cy="248" r="2.4"/><circle cx="852" cy="248" r="2.4"/><circle cx="868" cy="248" r="2.4"/><circle cx="884" cy="248" r="2.4"/><circle cx="900" cy="248" r="2.4"/><circle cx="916" cy="248" r="2.4"/><circle cx="836" cy="264" r="2.4"/><circle cx="852" cy="264" r="2.4"/><circle cx="868" cy="264" r="2.4"/><circle cx="884" cy="264" r="2.4"/><circle cx="900" cy="264" r="2.4"/><circle cx="916" cy="264" r="2.4"/><circle cx="836" cy="280" r="2.4"/><circle cx="852" cy="280" r="2.4"/><circle cx="868" cy="280" r="2.4"/><circle cx="884" cy="280" r="2.4"/><circle cx="900" cy="280" r="2.4"/><circle cx="916" cy="280" r="2.4"/>
+    </g>
+  </g>
+
+  <!-- connect classification to divisions and onward -->
+  <path d="M555 358 C600 358 610 340 640 340" stroke="#c9a227" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M880 536 C880 600 900 620 950 640" stroke="#c9a227" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- OSINT COLLECTION -->
+  <g>
+    <rect x="950" y="596" width="180" height="56" rx="8" fill="url(#nodeFill)" stroke="#4a9d8e" stroke-width="1.5"/>
+    <text x="1040" y="620" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">OSINT COLLECTION</text>
+    <text x="1040" y="638" text-anchor="middle" font-size="9" fill="#8fa3bf">open sources · provenance log</text>
+  </g>
+  <path d="M1130 624 H1160" stroke="#4a9d8e" stroke-width="2" marker-end="url(#arrowJade)"/>
+
+  <!-- SOURCE VERIFICATION -->
+  <g>
+    <rect x="950" y="676" width="180" height="0" rx="0" fill="none"/>
+  </g>
+</g>
+
+<!-- second row: verification -> analytics -> quality -> safety -> report -->
+<g font-family="Helvetica, Arial, sans-serif">
+  <!-- SOURCE VERIFICATION (left column under collection flow) -->
+  <g>
+    <rect x="700" y="596" width="180" height="56" rx="8" fill="url(#nodeFill)" stroke="#4a9d8e" stroke-width="1.5"/>
+    <text x="790" y="620" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">SOURCE VERIFICATION</text>
+    <text x="790" y="638" text-anchor="middle" font-size="9" fill="#8fa3bf">corroboration · grading</text>
+  </g>
+  <path d="M880 624 C910 624 920 624 950 624" stroke="#4a9d8e" stroke-width="2" marker-end="url(#arrowJade)"/>
+  <path d="M1040 652 V676" stroke="#4a9d8e" stroke-width="2" marker-end="url(#arrowJade)"/>
+
+  <!-- ANALYTICS -->
+  <g>
+    <rect x="700" y="676" width="180" height="56" rx="8" fill="url(#nodeFill)" stroke="#c9a227" stroke-width="1.5"/>
+    <text x="790" y="700" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">ANALYTICS</text>
+    <text x="790" y="718" text-anchor="middle" font-size="9" fill="#8fa3bf">ACH · indicators · forecasting</text>
+  </g>
+  <path d="M790 732 V760" stroke="#c9a227" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- QUALITY CONTROL -->
+  <g>
+    <rect x="500" y="760" width="0" height="0" fill="none"/>
+  </g>
+</g>
+
+<!-- bottom row -->
+<g font-family="Helvetica, Arial, sans-serif">
+  <!-- QUALITY CONTROL -->
+  <g>
+    <rect x="480" y="690" width="0" height="0" fill="none"/>
+  </g>
+</g>
+
+<!-- Re-layout bottom row cleanly: QC, SAFETY, REPORT across y=700 -->
+<g font-family="Helvetica, Arial, sans-serif">
+  <!-- QUALITY CONTROL -->
+  <g>
+    <rect x="455" y="676" width="180" height="56" rx="8" fill="url(#nodeFill)" stroke="#c9a227" stroke-width="1.5"/>
+    <text x="545" y="700" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">QUALITY CONTROL</text>
+    <text x="545" y="718" text-anchor="middle" font-size="9" fill="#8fa3bf">9 quality gates</text>
+  </g>
+  <path d="M545 676 V660 C545 650 560 646 580 646" stroke="#c9a227" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M545 732 V760 H560 V772" stroke="#c9a227" stroke-width="2" fill="none" marker-end="url(#arrow)" opacity="0"/>
+  <path d="M545 732 C545 750 555 758 575 758" stroke="#c9a227" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- SAFETY REVIEW -->
+  <g>
+    <rect x="280" y="730" width="180" height="56" rx="8" fill="url(#nodeFill)" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="370" y="754" text-anchor="middle" font-size="12" fill="#e8eef7" font-weight="bold">SAFETY REVIEW</text>
+    <text x="370" y="772" text-anchor="middle" font-size="9" fill="#8fa3bf">legal · OPSEC · harm gates</text>
+  </g>
+  <path d="M545 758 C500 758 470 758 460 758" stroke="#c0392b" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M280 758 C230 758 215 758 200 758" stroke="#c0392b" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- INTELLIGENCE REPORT -->
+  <g>
+    <rect x="40" y="730" width="160" height="56" rx="8" fill="#1a0f14" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="120" y="754" text-anchor="middle" font-size="12" fill="#f0d9dc" font-weight="bold">INTELLIGENCE REPORT</text>
+    <text x="120" y="772" text-anchor="middle" font-size="9" fill="#b08d94">graded product · audit trail</text>
+  </g>
+
+  <!-- evidence vocabulary strip -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#8fa3bf">
+    <text x="640" y="770" fill="#c9a227" font-weight="bold">EVIDENCE LABELS</text>
+    <text x="640" y="786">FACT · VERIFIED · UNVERIFIED · ASSESSMENT</text>
+    <text x="640" y="800" opacity="0">.</text>
+  </g>
+</g>
+
+<!-- confidence badge -->
+<g transform="translate(1090,730)">
+  <rect x="-70" y="-46" width="160" height="100" rx="10" fill="#050a14" stroke="#4a9d8e" stroke-width="1.5"/>
+  <text x="10" y="-28" text-anchor="middle" font-size="10" fill="#4a9d8e" font-weight="bold" letter-spacing="1">CONFIDENCE</text>
+  <text x="10" y="-10" text-anchor="middle" font-size="9" fill="#b9c6d8">source · information</text>
+  <text x="10" y="4" text-anchor="middle" font-size="9" fill="#b9c6d8">analytical (3-axis)</text>
+  <circle cx="10" cy="22" r="6" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+  <path d="M10 16 L12 22 L10 28 L8 22 Z" fill="#c9a227"/>
+</g>
+
+<!-- footer -->
+<text x="600" y="792" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5f7391" letter-spacing="2">PUBLIC SOURCES ONLY · NON-PARTISAN · EXPLICIT UNCERTAINTY · VERYCOOLAPPS</text>
+</svg>

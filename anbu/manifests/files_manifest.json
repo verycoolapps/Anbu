@@ -1,0 +1,5662 @@
+{
+  "skill": "ANBU OSINT",
+  "version": "1.0",
+  "total_files": 333,
+  "files": [
+    {
+      "id": "001",
+      "filename": "SKILL.md",
+      "division": "core",
+      "path": "anbu/SKILL.md",
+      "description": "ANBU OSINT master entry point: identity, division map, interaction protocol, and usage guide.",
+      "cross_references": [
+        "005",
+        "009",
+        "015",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296"
+      ]
+    },
+    {
+      "id": "002",
+      "filename": "anbu_identity.md",
+      "division": "core",
+      "path": "anbu/core/anbu_identity.md",
+      "description": "ANBU Identity: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "001",
+        "003",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "003",
+      "filename": "mission_and_vision.md",
+      "division": "core",
+      "path": "anbu/core/mission_and_vision.md",
+      "description": "Mission And Vision: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "002",
+        "004",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "004",
+      "filename": "operating_principles.md",
+      "division": "core",
+      "path": "anbu/core/operating_principles.md",
+      "description": "Operating Principles: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "003",
+        "005",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "005",
+      "filename": "intelligence_framework.md",
+      "division": "core",
+      "path": "anbu/core/intelligence_framework.md",
+      "description": "Intelligence Framework: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "004",
+        "006",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "006",
+      "filename": "intelligence_taxonomy.md",
+      "division": "core",
+      "path": "anbu/core/intelligence_taxonomy.md",
+      "description": "Intelligence Taxonomy: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "005",
+        "007",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "007",
+      "filename": "system_architecture.md",
+      "division": "core",
+      "path": "anbu/core/system_architecture.md",
+      "description": "System Architecture: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "006",
+        "008",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "008",
+      "filename": "capability_matrix.md",
+      "division": "core",
+      "path": "anbu/core/capability_matrix.md",
+      "description": "Capability Matrix: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "007",
+        "009",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "009",
+      "filename": "user_interaction_protocol.md",
+      "division": "core",
+      "path": "anbu/core/user_interaction_protocol.md",
+      "description": "User Interaction Protocol: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "008",
+        "010",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "010",
+      "filename": "execution_protocol.md",
+      "division": "core",
+      "path": "anbu/core/execution_protocol.md",
+      "description": "Execution Protocol: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "009",
+        "011",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "011",
+      "filename": "task_classification.md",
+      "division": "core",
+      "path": "anbu/core/task_classification.md",
+      "description": "Task Classification: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "010",
+        "012",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "012",
+      "filename": "workflow_orchestrator.md",
+      "division": "core",
+      "path": "anbu/core/workflow_orchestrator.md",
+      "description": "Workflow Orchestrator: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "011",
+        "013",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "013",
+      "filename": "intelligence_glossary.md",
+      "division": "core",
+      "path": "anbu/core/intelligence_glossary.md",
+      "description": "Intelligence Glossary: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "012",
+        "014",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "014",
+      "filename": "terminology_dictionary.md",
+      "division": "core",
+      "path": "anbu/core/terminology_dictionary.md",
+      "description": "Terminology Dictionary: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "013",
+        "015",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "015",
+      "filename": "output_standards.md",
+      "division": "core",
+      "path": "anbu/core/output_standards.md",
+      "description": "Output Standards: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "014",
+        "016",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "016",
+      "filename": "quality_assurance.md",
+      "division": "core",
+      "path": "anbu/core/quality_assurance.md",
+      "description": "Quality Assurance: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "015",
+        "017",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "017",
+      "filename": "confidence_framework.md",
+      "division": "core",
+      "path": "anbu/core/confidence_framework.md",
+      "description": "Confidence Framework: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "016",
+        "018",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "018",
+      "filename": "uncertainty_management.md",
+      "division": "core",
+      "path": "anbu/core/uncertainty_management.md",
+      "description": "Uncertainty Management: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "017",
+        "019",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "019",
+      "filename": "ethical_operating_framework.md",
+      "division": "core",
+      "path": "anbu/core/ethical_operating_framework.md",
+      "description": "Ethical Operating Framework: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "018",
+        "020",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297"
+      ]
+    },
+    {
+      "id": "020",
+      "filename": "master_reference_index.md",
+      "division": "core",
+      "path": "anbu/core/master_reference_index.md",
+      "description": "Master Reference Index: methods, reference material, and analytical guidance for the core division.",
+      "cross_references": [
+        "019",
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "297",
+        "316"
+      ]
+    },
+    {
+      "id": "021",
+      "filename": "political_system_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_system_analysis.md",
+      "description": "Political System Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "022",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206"
+      ]
+    },
+    {
+      "id": "022",
+      "filename": "political_landscape_mapping.md",
+      "division": "political",
+      "path": "anbu/political/political_landscape_mapping.md",
+      "description": "Political Landscape Mapping: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "021",
+        "023",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "023",
+      "filename": "political_party_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_party_analysis.md",
+      "description": "Political Party Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "022",
+        "024",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "024",
+      "filename": "political_leadership_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_leadership_analysis.md",
+      "description": "Political Leadership Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "023",
+        "025",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "025",
+      "filename": "parliamentary_intelligence.md",
+      "division": "political",
+      "path": "anbu/political/parliamentary_intelligence.md",
+      "description": "Parliamentary Intelligence: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "024",
+        "026",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "026",
+      "filename": "executive_branch_analysis.md",
+      "division": "political",
+      "path": "anbu/political/executive_branch_analysis.md",
+      "description": "Executive Branch Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "025",
+        "027",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "027",
+      "filename": "legislative_process_analysis.md",
+      "division": "political",
+      "path": "anbu/political/legislative_process_analysis.md",
+      "description": "Legislative Process Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "026",
+        "028",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "028",
+      "filename": "judicial_institution_analysis.md",
+      "division": "political",
+      "path": "anbu/political/judicial_institution_analysis.md",
+      "description": "Judicial Institution Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "027",
+        "029",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "029",
+      "filename": "cabinet_composition_analysis.md",
+      "division": "political",
+      "path": "anbu/political/cabinet_composition_analysis.md",
+      "description": "Cabinet Composition Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "028",
+        "030",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "030",
+      "filename": "political_coalition_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_coalition_analysis.md",
+      "description": "Political Coalition Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "029",
+        "031",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "031",
+      "filename": "election_system_analysis.md",
+      "division": "political",
+      "path": "anbu/political/election_system_analysis.md",
+      "description": "Election System Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "030",
+        "032",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "032",
+      "filename": "election_result_analysis.md",
+      "division": "political",
+      "path": "anbu/political/election_result_analysis.md",
+      "description": "Election Result Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "031",
+        "033",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "033",
+      "filename": "political_campaign_public_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_campaign_public_analysis.md",
+      "description": "Political Campaign Public Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "032",
+        "034",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "034",
+      "filename": "political_funding_transparency.md",
+      "division": "political",
+      "path": "anbu/political/political_funding_transparency.md",
+      "description": "Political Funding Transparency: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "033",
+        "035",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "035",
+      "filename": "political_risk_assessment.md",
+      "division": "political",
+      "path": "anbu/political/political_risk_assessment.md",
+      "description": "Political Risk Assessment: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "034",
+        "036",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "036",
+      "filename": "political_stability_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_stability_analysis.md",
+      "description": "Political Stability Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "035",
+        "037",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "037",
+      "filename": "political_transition_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_transition_analysis.md",
+      "description": "Political Transition Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "036",
+        "038",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "038",
+      "filename": "political_ideology_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_ideology_analysis.md",
+      "description": "Political Ideology Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "037",
+        "039",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "039",
+      "filename": "political_network_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_network_analysis.md",
+      "description": "Political Network Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "038",
+        "040",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "040",
+      "filename": "public_opinion_analysis.md",
+      "division": "political",
+      "path": "anbu/political/public_opinion_analysis.md",
+      "description": "Public Opinion Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "039",
+        "041",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "041",
+      "filename": "political_communication_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_communication_analysis.md",
+      "description": "Political Communication Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "040",
+        "042",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "042",
+      "filename": "political_narrative_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_narrative_analysis.md",
+      "description": "Political Narrative Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "041",
+        "043",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "043",
+      "filename": "political_influence_mapping.md",
+      "division": "political",
+      "path": "anbu/political/political_influence_mapping.md",
+      "description": "Political Influence Mapping: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "042",
+        "044",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "044",
+      "filename": "political_timeline_reconstruction.md",
+      "division": "political",
+      "path": "anbu/political/political_timeline_reconstruction.md",
+      "description": "Political Timeline Reconstruction: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "043",
+        "045",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147"
+      ]
+    },
+    {
+      "id": "045",
+      "filename": "political_scenario_analysis.md",
+      "division": "political",
+      "path": "anbu/political/political_scenario_analysis.md",
+      "description": "Political Scenario Analysis: methods, reference material, and analytical guidance for the political division.",
+      "cross_references": [
+        "044",
+        "081",
+        "082",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206"
+      ]
+    },
+    {
+      "id": "046",
+      "filename": "defense_policy_analysis.md",
+      "division": "military",
+      "path": "anbu/military/defense_policy_analysis.md",
+      "description": "Defense Policy Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207",
+        "256"
+      ]
+    },
+    {
+      "id": "047",
+      "filename": "military_organization_overview.md",
+      "division": "military",
+      "path": "anbu/military/military_organization_overview.md",
+      "description": "Military Organization Overview: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "046",
+        "048",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "048",
+      "filename": "military_history_analysis.md",
+      "division": "military",
+      "path": "anbu/military/military_history_analysis.md",
+      "description": "Military History Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "047",
+        "049",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "049",
+      "filename": "military_doctrine_analysis.md",
+      "division": "military",
+      "path": "anbu/military/military_doctrine_analysis.md",
+      "description": "Military Doctrine Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "048",
+        "050",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "050",
+      "filename": "military_budget_analysis.md",
+      "division": "military",
+      "path": "anbu/military/military_budget_analysis.md",
+      "description": "Military Budget Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "049",
+        "051",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "051",
+      "filename": "defense_spending_comparison.md",
+      "division": "military",
+      "path": "anbu/military/defense_spending_comparison.md",
+      "description": "Defense Spending Comparison: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "050",
+        "052",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "052",
+      "filename": "defense_procurement_analysis.md",
+      "division": "military",
+      "path": "anbu/military/defense_procurement_analysis.md",
+      "description": "Defense Procurement Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "051",
+        "053",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "053",
+      "filename": "defense_industry_mapping.md",
+      "division": "military",
+      "path": "anbu/military/defense_industry_mapping.md",
+      "description": "Defense Industry Mapping: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "052",
+        "054",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "054",
+      "filename": "defense_industry_supply_chain.md",
+      "division": "military",
+      "path": "anbu/military/defense_industry_supply_chain.md",
+      "description": "Defense Industry Supply Chain: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "053",
+        "055",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "055",
+      "filename": "arms_trade_public_records.md",
+      "division": "military",
+      "path": "anbu/military/arms_trade_public_records.md",
+      "description": "Arms Trade Public Records: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "054",
+        "056",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "056",
+      "filename": "weapons_system_overview.md",
+      "division": "military",
+      "path": "anbu/military/weapons_system_overview.md",
+      "description": "Weapons System Overview: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "055",
+        "057",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "057",
+      "filename": "military_modernization_tracking.md",
+      "division": "military",
+      "path": "anbu/military/military_modernization_tracking.md",
+      "description": "Military Modernization Tracking: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "056",
+        "058",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "058",
+      "filename": "force_structure_public_assessment.md",
+      "division": "military",
+      "path": "anbu/military/force_structure_public_assessment.md",
+      "description": "Force Structure Public Assessment: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "057",
+        "059",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "059",
+      "filename": "military_personnel_public_information.md",
+      "division": "military",
+      "path": "anbu/military/military_personnel_public_information.md",
+      "description": "Military Personnel Public Information: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "058",
+        "060",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "060",
+      "filename": "military_training_public_analysis.md",
+      "division": "military",
+      "path": "anbu/military/military_training_public_analysis.md",
+      "description": "Military Training Public Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "059",
+        "061",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "061",
+      "filename": "military_exercise_monitoring.md",
+      "division": "military",
+      "path": "anbu/military/military_exercise_monitoring.md",
+      "description": "Military Exercise Monitoring: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "060",
+        "062",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "062",
+      "filename": "defense_diplomacy_analysis.md",
+      "division": "military",
+      "path": "anbu/military/defense_diplomacy_analysis.md",
+      "description": "Defense Diplomacy Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "061",
+        "063",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "063",
+      "filename": "military_alliance_analysis.md",
+      "division": "military",
+      "path": "anbu/military/military_alliance_analysis.md",
+      "description": "Military Alliance Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "062",
+        "064",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "064",
+      "filename": "military_civilian_relations.md",
+      "division": "military",
+      "path": "anbu/military/military_civilian_relations.md",
+      "description": "Military Civilian Relations: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "063",
+        "065",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "065",
+      "filename": "defense_technology_trends.md",
+      "division": "military",
+      "path": "anbu/military/defense_technology_trends.md",
+      "description": "Defense Technology Trends: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "064",
+        "066",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "066",
+      "filename": "aerospace_defense_analysis.md",
+      "division": "military",
+      "path": "anbu/military/aerospace_defense_analysis.md",
+      "description": "Aerospace Defense Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "065",
+        "067",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "067",
+      "filename": "naval_defense_policy.md",
+      "division": "military",
+      "path": "anbu/military/naval_defense_policy.md",
+      "description": "Naval Defense Policy: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "066",
+        "068",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "068",
+      "filename": "land_force_capability_overview.md",
+      "division": "military",
+      "path": "anbu/military/land_force_capability_overview.md",
+      "description": "Land Force Capability Overview: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "067",
+        "069",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "069",
+      "filename": "air_force_capability_overview.md",
+      "division": "military",
+      "path": "anbu/military/air_force_capability_overview.md",
+      "description": "Air Force Capability Overview: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "068",
+        "070",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "070",
+      "filename": "cyber_defense_policy_analysis.md",
+      "division": "military",
+      "path": "anbu/military/cyber_defense_policy_analysis.md",
+      "description": "Cyber Defense Policy Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "069",
+        "071",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "071",
+      "filename": "military_logistics_public_policy.md",
+      "division": "military",
+      "path": "anbu/military/military_logistics_public_policy.md",
+      "description": "Military Logistics Public Policy: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "070",
+        "072",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "072",
+      "filename": "defense_readiness_public_indicators.md",
+      "division": "military",
+      "path": "anbu/military/defense_readiness_public_indicators.md",
+      "description": "Defense Readiness Public Indicators: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "071",
+        "073",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "073",
+      "filename": "military_history_timeline.md",
+      "division": "military",
+      "path": "anbu/military/military_history_timeline.md",
+      "description": "Military History Timeline: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "072",
+        "074",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "074",
+      "filename": "conflict_history_analysis.md",
+      "division": "military",
+      "path": "anbu/military/conflict_history_analysis.md",
+      "description": "Conflict History Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "073",
+        "075",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "075",
+      "filename": "conflict_development_tracking.md",
+      "division": "military",
+      "path": "anbu/military/conflict_development_tracking.md",
+      "description": "Conflict Development Tracking: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "074",
+        "076",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "076",
+      "filename": "ceasefire_and_peace_agreement_analysis.md",
+      "division": "military",
+      "path": "anbu/military/ceasefire_and_peace_agreement_analysis.md",
+      "description": "Ceasefire And Peace Agreement Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "075",
+        "077",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "077",
+      "filename": "peacekeeping_operations_analysis.md",
+      "division": "military",
+      "path": "anbu/military/peacekeeping_operations_analysis.md",
+      "description": "Peacekeeping Operations Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "076",
+        "078",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "078",
+      "filename": "defense_risk_assessment.md",
+      "division": "military",
+      "path": "anbu/military/defense_risk_assessment.md",
+      "description": "Defense Risk Assessment: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "077",
+        "079",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "079",
+      "filename": "military_capability_methodology.md",
+      "division": "military",
+      "path": "anbu/military/military_capability_methodology.md",
+      "description": "Military Capability Methodology: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "078",
+        "080",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "080",
+      "filename": "defense_scenario_analysis.md",
+      "division": "military",
+      "path": "anbu/military/defense_scenario_analysis.md",
+      "description": "Defense Scenario Analysis: methods, reference material, and analytical guidance for the military division.",
+      "cross_references": [
+        "079",
+        "111",
+        "112",
+        "146",
+        "147",
+        "206",
+        "207",
+        "256"
+      ]
+    },
+    {
+      "id": "081",
+      "filename": "constitution_analysis.md",
+      "division": "state",
+      "path": "anbu/state/constitution_analysis.md",
+      "description": "Constitution Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "082",
+        "146",
+        "147",
+        "206",
+        "207",
+        "256"
+      ]
+    },
+    {
+      "id": "082",
+      "filename": "state_institution_mapping.md",
+      "division": "state",
+      "path": "anbu/state/state_institution_mapping.md",
+      "description": "State Institution Mapping: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "083",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "083",
+      "filename": "government_structure_analysis.md",
+      "division": "state",
+      "path": "anbu/state/government_structure_analysis.md",
+      "description": "Government Structure Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "082",
+        "084",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "084",
+      "filename": "ministry_directory.md",
+      "division": "state",
+      "path": "anbu/state/ministry_directory.md",
+      "description": "Ministry Directory: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "083",
+        "085",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "085",
+      "filename": "government_agency_mapping.md",
+      "division": "state",
+      "path": "anbu/state/government_agency_mapping.md",
+      "description": "Government Agency Mapping: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "084",
+        "086",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "086",
+      "filename": "bureaucracy_analysis.md",
+      "division": "state",
+      "path": "anbu/state/bureaucracy_analysis.md",
+      "description": "Bureaucracy Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "085",
+        "087",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "087",
+      "filename": "public_administration_analysis.md",
+      "division": "state",
+      "path": "anbu/state/public_administration_analysis.md",
+      "description": "Public Administration Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "086",
+        "088",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "088",
+      "filename": "public_policy_tracking.md",
+      "division": "state",
+      "path": "anbu/state/public_policy_tracking.md",
+      "description": "Public Policy Tracking: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "087",
+        "089",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "089",
+      "filename": "national_development_policy.md",
+      "division": "state",
+      "path": "anbu/state/national_development_policy.md",
+      "description": "National Development Policy: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "088",
+        "090",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "090",
+      "filename": "regional_government_analysis.md",
+      "division": "state",
+      "path": "anbu/state/regional_government_analysis.md",
+      "description": "Regional Government Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "089",
+        "091",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "091",
+      "filename": "decentralization_analysis.md",
+      "division": "state",
+      "path": "anbu/state/decentralization_analysis.md",
+      "description": "Decentralization Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "090",
+        "092",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "092",
+      "filename": "intergovernmental_relations.md",
+      "division": "state",
+      "path": "anbu/state/intergovernmental_relations.md",
+      "description": "Intergovernmental Relations: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "091",
+        "093",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "093",
+      "filename": "public_budget_analysis.md",
+      "division": "state",
+      "path": "anbu/state/public_budget_analysis.md",
+      "description": "Public Budget Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "092",
+        "094",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "094",
+      "filename": "national_budget_tracking.md",
+      "division": "state",
+      "path": "anbu/state/national_budget_tracking.md",
+      "description": "National Budget Tracking: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "093",
+        "095",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "095",
+      "filename": "government_spending_analysis.md",
+      "division": "state",
+      "path": "anbu/state/government_spending_analysis.md",
+      "description": "Government Spending Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "094",
+        "096",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "096",
+      "filename": "public_procurement_transparency.md",
+      "division": "state",
+      "path": "anbu/state/public_procurement_transparency.md",
+      "description": "Public Procurement Transparency: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "095",
+        "097",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "097",
+      "filename": "regulatory_intelligence.md",
+      "division": "state",
+      "path": "anbu/state/regulatory_intelligence.md",
+      "description": "Regulatory Intelligence: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "096",
+        "098",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "098",
+      "filename": "legislation_tracking.md",
+      "division": "state",
+      "path": "anbu/state/legislation_tracking.md",
+      "description": "Legislation Tracking: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "097",
+        "099",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "099",
+      "filename": "law_and_regulation_comparison.md",
+      "division": "state",
+      "path": "anbu/state/law_and_regulation_comparison.md",
+      "description": "Law And Regulation Comparison: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "098",
+        "100",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "100",
+      "filename": "government_performance_analysis.md",
+      "division": "state",
+      "path": "anbu/state/government_performance_analysis.md",
+      "description": "Government Performance Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "099",
+        "101",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "101",
+      "filename": "institutional_capacity_assessment.md",
+      "division": "state",
+      "path": "anbu/state/institutional_capacity_assessment.md",
+      "description": "Institutional Capacity Assessment: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "100",
+        "102",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "102",
+      "filename": "state_capacity_analysis.md",
+      "division": "state",
+      "path": "anbu/state/state_capacity_analysis.md",
+      "description": "State Capacity Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "101",
+        "103",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "103",
+      "filename": "public_service_analysis.md",
+      "division": "state",
+      "path": "anbu/state/public_service_analysis.md",
+      "description": "Public Service Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "102",
+        "104",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "104",
+      "filename": "government_accountability.md",
+      "division": "state",
+      "path": "anbu/state/government_accountability.md",
+      "description": "Government Accountability: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "103",
+        "105",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "105",
+      "filename": "anti_corruption_public_records.md",
+      "division": "state",
+      "path": "anbu/state/anti_corruption_public_records.md",
+      "description": "Anti Corruption Public Records: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "104",
+        "106",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "106",
+      "filename": "public_audit_analysis.md",
+      "division": "state",
+      "path": "anbu/state/public_audit_analysis.md",
+      "description": "Public Audit Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "105",
+        "107",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "107",
+      "filename": "state_owned_enterprise_analysis.md",
+      "division": "state",
+      "path": "anbu/state/state_owned_enterprise_analysis.md",
+      "description": "State Owned Enterprise Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "106",
+        "108",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "108",
+      "filename": "national_policy_timeline.md",
+      "division": "state",
+      "path": "anbu/state/national_policy_timeline.md",
+      "description": "National Policy Timeline: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "107",
+        "109",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "109",
+      "filename": "government_transition_analysis.md",
+      "division": "state",
+      "path": "anbu/state/government_transition_analysis.md",
+      "description": "Government Transition Analysis: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "108",
+        "110",
+        "146",
+        "147",
+        "206",
+        "207"
+      ]
+    },
+    {
+      "id": "110",
+      "filename": "institutional_risk_assessment.md",
+      "division": "state",
+      "path": "anbu/state/institutional_risk_assessment.md",
+      "description": "Institutional Risk Assessment: methods, reference material, and analytical guidance for the state division.",
+      "cross_references": [
+        "021",
+        "022",
+        "109",
+        "146",
+        "147",
+        "206",
+        "207",
+        "256"
+      ]
+    },
+    {
+      "id": "111",
+      "filename": "geopolitical_landscape.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/geopolitical_landscape.md",
+      "description": "Geopolitical Landscape: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "112",
+        "206"
+      ]
+    },
+    {
+      "id": "112",
+      "filename": "national_interest_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/national_interest_analysis.md",
+      "description": "National Interest Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "113"
+      ]
+    },
+    {
+      "id": "113",
+      "filename": "geopolitical_rivalry_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/geopolitical_rivalry_analysis.md",
+      "description": "Geopolitical Rivalry Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "112",
+        "114"
+      ]
+    },
+    {
+      "id": "114",
+      "filename": "bilateral_relations_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/bilateral_relations_analysis.md",
+      "description": "Bilateral Relations Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "113",
+        "115"
+      ]
+    },
+    {
+      "id": "115",
+      "filename": "multilateral_relations_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/multilateral_relations_analysis.md",
+      "description": "Multilateral Relations Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "114",
+        "116"
+      ]
+    },
+    {
+      "id": "116",
+      "filename": "diplomatic_intelligence.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/diplomatic_intelligence.md",
+      "description": "Diplomatic Intelligence: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "115",
+        "117"
+      ]
+    },
+    {
+      "id": "117",
+      "filename": "international_organization_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/international_organization_analysis.md",
+      "description": "International Organization Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "116",
+        "118"
+      ]
+    },
+    {
+      "id": "118",
+      "filename": "regional_power_mapping.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/regional_power_mapping.md",
+      "description": "Regional Power Mapping: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "117",
+        "119"
+      ]
+    },
+    {
+      "id": "119",
+      "filename": "global_power_structure.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/global_power_structure.md",
+      "description": "Global Power Structure: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "118",
+        "120"
+      ]
+    },
+    {
+      "id": "120",
+      "filename": "strategic_alliance_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/strategic_alliance_analysis.md",
+      "description": "Strategic Alliance Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "119",
+        "121"
+      ]
+    },
+    {
+      "id": "121",
+      "filename": "geopolitical_timeline.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/geopolitical_timeline.md",
+      "description": "Geopolitical Timeline: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "120",
+        "122"
+      ]
+    },
+    {
+      "id": "122",
+      "filename": "maritime_geopolitics.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/maritime_geopolitics.md",
+      "description": "Maritime Geopolitics: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "121",
+        "123"
+      ]
+    },
+    {
+      "id": "123",
+      "filename": "territorial_dispute_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/territorial_dispute_analysis.md",
+      "description": "Territorial Dispute Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "122",
+        "124"
+      ]
+    },
+    {
+      "id": "124",
+      "filename": "border_dispute_public_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/border_dispute_public_analysis.md",
+      "description": "Border Dispute Public Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "123",
+        "125"
+      ]
+    },
+    {
+      "id": "125",
+      "filename": "energy_geopolitics.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/energy_geopolitics.md",
+      "description": "Energy Geopolitics: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "124",
+        "126"
+      ]
+    },
+    {
+      "id": "126",
+      "filename": "critical_mineral_geopolitics.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/critical_mineral_geopolitics.md",
+      "description": "Critical Mineral Geopolitics: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "125",
+        "127"
+      ]
+    },
+    {
+      "id": "127",
+      "filename": "food_security_geopolitics.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/food_security_geopolitics.md",
+      "description": "Food Security Geopolitics: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "126",
+        "128"
+      ]
+    },
+    {
+      "id": "128",
+      "filename": "water_security_geopolitics.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/water_security_geopolitics.md",
+      "description": "Water Security Geopolitics: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "127",
+        "129"
+      ]
+    },
+    {
+      "id": "129",
+      "filename": "trade_route_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/trade_route_analysis.md",
+      "description": "Trade Route Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "128",
+        "130"
+      ]
+    },
+    {
+      "id": "130",
+      "filename": "strategic_infrastructure_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/strategic_infrastructure_analysis.md",
+      "description": "Strategic Infrastructure Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "129",
+        "131"
+      ]
+    },
+    {
+      "id": "131",
+      "filename": "global_supply_chain_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/global_supply_chain_analysis.md",
+      "description": "Global Supply Chain Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "130",
+        "132"
+      ]
+    },
+    {
+      "id": "132",
+      "filename": "geoeconomic_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/geoeconomic_analysis.md",
+      "description": "Geoeconomic Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "131",
+        "133"
+      ]
+    },
+    {
+      "id": "133",
+      "filename": "economic_sanctions_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/economic_sanctions_analysis.md",
+      "description": "Economic Sanctions Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "132",
+        "134"
+      ]
+    },
+    {
+      "id": "134",
+      "filename": "international_trade_policy.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/international_trade_policy.md",
+      "description": "International Trade Policy: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "133",
+        "135"
+      ]
+    },
+    {
+      "id": "135",
+      "filename": "regional_security_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/regional_security_analysis.md",
+      "description": "Regional Security Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "134",
+        "136"
+      ]
+    },
+    {
+      "id": "136",
+      "filename": "indo_pacific_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/indo_pacific_analysis.md",
+      "description": "Indo Pacific Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "135",
+        "137"
+      ]
+    },
+    {
+      "id": "137",
+      "filename": "southeast_asia_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/southeast_asia_analysis.md",
+      "description": "Southeast Asia Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "136",
+        "138"
+      ]
+    },
+    {
+      "id": "138",
+      "filename": "asean_intelligence.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/asean_intelligence.md",
+      "description": "Asean Intelligence: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "137",
+        "139"
+      ]
+    },
+    {
+      "id": "139",
+      "filename": "european_security_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/european_security_analysis.md",
+      "description": "European Security Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "138",
+        "140"
+      ]
+    },
+    {
+      "id": "140",
+      "filename": "middle_east_analysis.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/middle_east_analysis.md",
+      "description": "Middle East Analysis: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "139",
+        "141"
+      ]
+    },
+    {
+      "id": "141",
+      "filename": "african_geopolitics.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/african_geopolitics.md",
+      "description": "African Geopolitics: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "140",
+        "142"
+      ]
+    },
+    {
+      "id": "142",
+      "filename": "great_power_competition.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/great_power_competition.md",
+      "description": "Great Power Competition: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "141",
+        "143"
+      ]
+    },
+    {
+      "id": "143",
+      "filename": "geopolitical_risk_matrix.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/geopolitical_risk_matrix.md",
+      "description": "Geopolitical Risk Matrix: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "142",
+        "144"
+      ]
+    },
+    {
+      "id": "144",
+      "filename": "geopolitical_scenario_planning.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/geopolitical_scenario_planning.md",
+      "description": "Geopolitical Scenario Planning: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "143",
+        "145"
+      ]
+    },
+    {
+      "id": "145",
+      "filename": "strategic_forecasting.md",
+      "division": "geopolitical",
+      "path": "anbu/geopolitical/strategic_forecasting.md",
+      "description": "Strategic Forecasting: methods, reference material, and analytical guidance for the geopolitical division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "144",
+        "206"
+      ]
+    },
+    {
+      "id": "146",
+      "filename": "osint_methodology.md",
+      "division": "osint",
+      "path": "anbu/osint/osint_methodology.md",
+      "description": "OSINT Methodology: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "147",
+      "filename": "source_discovery.md",
+      "division": "osint",
+      "path": "anbu/osint/source_discovery.md",
+      "description": "Source Discovery: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "146",
+        "148",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "148",
+      "filename": "search_engine_research.md",
+      "division": "osint",
+      "path": "anbu/osint/search_engine_research.md",
+      "description": "Search Engine Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "147",
+        "149",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "149",
+      "filename": "advanced_search_operators.md",
+      "division": "osint",
+      "path": "anbu/osint/advanced_search_operators.md",
+      "description": "Advanced Search Operators: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "148",
+        "150",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "150",
+      "filename": "government_open_data.md",
+      "division": "osint",
+      "path": "anbu/osint/government_open_data.md",
+      "description": "Government Open Data: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "149",
+        "151",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "151",
+      "filename": "public_registry_research.md",
+      "division": "osint",
+      "path": "anbu/osint/public_registry_research.md",
+      "description": "Public Registry Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "150",
+        "152",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "152",
+      "filename": "parliamentary_document_research.md",
+      "division": "osint",
+      "path": "anbu/osint/parliamentary_document_research.md",
+      "description": "Parliamentary Document Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "151",
+        "153",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "153",
+      "filename": "official_statement_collection.md",
+      "division": "osint",
+      "path": "anbu/osint/official_statement_collection.md",
+      "description": "Official Statement Collection: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "152",
+        "154",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "154",
+      "filename": "public_press_release_collection.md",
+      "division": "osint",
+      "path": "anbu/osint/public_press_release_collection.md",
+      "description": "Public Press Release Collection: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "153",
+        "155",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "155",
+      "filename": "academic_research_collection.md",
+      "division": "osint",
+      "path": "anbu/osint/academic_research_collection.md",
+      "description": "Academic Research Collection: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "154",
+        "156",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "156",
+      "filename": "research_paper_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/research_paper_analysis.md",
+      "description": "Research Paper Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "155",
+        "157",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "157",
+      "filename": "news_media_monitoring.md",
+      "division": "osint",
+      "path": "anbu/osint/news_media_monitoring.md",
+      "description": "News Media Monitoring: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "156",
+        "158",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "158",
+      "filename": "media_archive_research.md",
+      "division": "osint",
+      "path": "anbu/osint/media_archive_research.md",
+      "description": "Media Archive Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "157",
+        "159",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "159",
+      "filename": "public_social_media_research.md",
+      "division": "osint",
+      "path": "anbu/osint/public_social_media_research.md",
+      "description": "Public Social Media Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "158",
+        "160",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "160",
+      "filename": "public_web_archive_research.md",
+      "division": "osint",
+      "path": "anbu/osint/public_web_archive_research.md",
+      "description": "Public Web Archive Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "159",
+        "161",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "161",
+      "filename": "public_document_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/public_document_analysis.md",
+      "description": "Public Document Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "160",
+        "162",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "162",
+      "filename": "public_pdf_research.md",
+      "division": "osint",
+      "path": "anbu/osint/public_pdf_research.md",
+      "description": "Public PDF Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "161",
+        "163",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "163",
+      "filename": "public_image_metadata_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/public_image_metadata_analysis.md",
+      "description": "Public Image Metadata Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "162",
+        "164",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "164",
+      "filename": "public_video_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/public_video_analysis.md",
+      "description": "Public Video Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "163",
+        "165",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "165",
+      "filename": "public_satellite_imagery_context.md",
+      "division": "osint",
+      "path": "anbu/osint/public_satellite_imagery_context.md",
+      "description": "Public Satellite Imagery Context: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "164",
+        "166",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "166",
+      "filename": "geospatial_open_data.md",
+      "division": "osint",
+      "path": "anbu/osint/geospatial_open_data.md",
+      "description": "Geospatial Open Data: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "165",
+        "167",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "167",
+      "filename": "public_economic_database.md",
+      "division": "osint",
+      "path": "anbu/osint/public_economic_database.md",
+      "description": "Public Economic Database: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "166",
+        "168",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "168",
+      "filename": "public_financial_database.md",
+      "division": "osint",
+      "path": "anbu/osint/public_financial_database.md",
+      "description": "Public Financial Database: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "167",
+        "169",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "169",
+      "filename": "international_dataset_research.md",
+      "division": "osint",
+      "path": "anbu/osint/international_dataset_research.md",
+      "description": "International Dataset Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "168",
+        "170",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "170",
+      "filename": "historical_archive_research.md",
+      "division": "osint",
+      "path": "anbu/osint/historical_archive_research.md",
+      "description": "Historical Archive Research: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "169",
+        "171",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "171",
+      "filename": "public_speech_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/public_speech_analysis.md",
+      "description": "Public Speech Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "170",
+        "172",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "172",
+      "filename": "public_interview_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/public_interview_analysis.md",
+      "description": "Public Interview Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "171",
+        "173",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "173",
+      "filename": "public_event_reconstruction.md",
+      "division": "osint",
+      "path": "anbu/osint/public_event_reconstruction.md",
+      "description": "Public Event Reconstruction: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "172",
+        "174",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "174",
+      "filename": "public_timeline_collection.md",
+      "division": "osint",
+      "path": "anbu/osint/public_timeline_collection.md",
+      "description": "Public Timeline Collection: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "173",
+        "175",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "175",
+      "filename": "source_collection_log.md",
+      "division": "osint",
+      "path": "anbu/osint/source_collection_log.md",
+      "description": "Source Collection Log: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "174",
+        "176",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "176",
+      "filename": "collection_requirement_definition.md",
+      "division": "osint",
+      "path": "anbu/osint/collection_requirement_definition.md",
+      "description": "Collection Requirement Definition: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "175",
+        "177",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "177",
+      "filename": "collection_prioritization.md",
+      "division": "osint",
+      "path": "anbu/osint/collection_prioritization.md",
+      "description": "Collection Prioritization: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "176",
+        "178",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "178",
+      "filename": "information_gap_analysis.md",
+      "division": "osint",
+      "path": "anbu/osint/information_gap_analysis.md",
+      "description": "Information Gap Analysis: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "177",
+        "179",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "179",
+      "filename": "collection_quality_control.md",
+      "division": "osint",
+      "path": "anbu/osint/collection_quality_control.md",
+      "description": "Collection Quality Control: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "178",
+        "180",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "180",
+      "filename": "osint_collection_ethics.md",
+      "division": "osint",
+      "path": "anbu/osint/osint_collection_ethics.md",
+      "description": "OSINT Collection Ethics: methods, reference material, and analytical guidance for the osint division.",
+      "cross_references": [
+        "179",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "277"
+      ]
+    },
+    {
+      "id": "181",
+      "filename": "source_reliability_assessment.md",
+      "division": "verification",
+      "path": "anbu/verification/source_reliability_assessment.md",
+      "description": "Source Reliability Assessment: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "182",
+        "206",
+        "207",
+        "256",
+        "257",
+        "276"
+      ]
+    },
+    {
+      "id": "182",
+      "filename": "source_credibility_scoring.md",
+      "division": "verification",
+      "path": "anbu/verification/source_credibility_scoring.md",
+      "description": "Source Credibility Scoring: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "183",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "183",
+      "filename": "primary_source_verification.md",
+      "division": "verification",
+      "path": "anbu/verification/primary_source_verification.md",
+      "description": "Primary Source Verification: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "182",
+        "184",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "184",
+      "filename": "secondary_source_verification.md",
+      "division": "verification",
+      "path": "anbu/verification/secondary_source_verification.md",
+      "description": "Secondary Source Verification: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "183",
+        "185",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "185",
+      "filename": "tertiary_source_handling.md",
+      "division": "verification",
+      "path": "anbu/verification/tertiary_source_handling.md",
+      "description": "Tertiary Source Handling: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "184",
+        "186",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "186",
+      "filename": "source_provenance_tracking.md",
+      "division": "verification",
+      "path": "anbu/verification/source_provenance_tracking.md",
+      "description": "Source Provenance Tracking: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "185",
+        "187",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "187",
+      "filename": "evidence_chain_management.md",
+      "division": "verification",
+      "path": "anbu/verification/evidence_chain_management.md",
+      "description": "Evidence Chain Management: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "186",
+        "188",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "188",
+      "filename": "cross_source_corroboration.md",
+      "division": "verification",
+      "path": "anbu/verification/cross_source_corroboration.md",
+      "description": "Cross Source Corroboration: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "187",
+        "189",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "189",
+      "filename": "claim_verification.md",
+      "division": "verification",
+      "path": "anbu/verification/claim_verification.md",
+      "description": "Claim Verification: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "188",
+        "190",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "190",
+      "filename": "fact_checking_methodology.md",
+      "division": "verification",
+      "path": "anbu/verification/fact_checking_methodology.md",
+      "description": "Fact Checking Methodology: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "189",
+        "191",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "191",
+      "filename": "misinformation_detection.md",
+      "division": "verification",
+      "path": "anbu/verification/misinformation_detection.md",
+      "description": "Misinformation Detection: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "190",
+        "192",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "192",
+      "filename": "disinformation_detection.md",
+      "division": "verification",
+      "path": "anbu/verification/disinformation_detection.md",
+      "description": "Disinformation Detection: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "191",
+        "193",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "193",
+      "filename": "propaganda_analysis.md",
+      "division": "verification",
+      "path": "anbu/verification/propaganda_analysis.md",
+      "description": "Propaganda Analysis: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "192",
+        "194",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "194",
+      "filename": "manipulated_media_assessment.md",
+      "division": "verification",
+      "path": "anbu/verification/manipulated_media_assessment.md",
+      "description": "Manipulated Media Assessment: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "193",
+        "195",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "195",
+      "filename": "image_authenticity_assessment.md",
+      "division": "verification",
+      "path": "anbu/verification/image_authenticity_assessment.md",
+      "description": "Image Authenticity Assessment: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "194",
+        "196",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "196",
+      "filename": "video_authenticity_assessment.md",
+      "division": "verification",
+      "path": "anbu/verification/video_authenticity_assessment.md",
+      "description": "Video Authenticity Assessment: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "195",
+        "197",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "197",
+      "filename": "publication_date_verification.md",
+      "division": "verification",
+      "path": "anbu/verification/publication_date_verification.md",
+      "description": "Publication Date Verification: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "196",
+        "198",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "198",
+      "filename": "document_authenticity_assessment.md",
+      "division": "verification",
+      "path": "anbu/verification/document_authenticity_assessment.md",
+      "description": "Document Authenticity Assessment: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "197",
+        "199",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "199",
+      "filename": "quotation_verification.md",
+      "division": "verification",
+      "path": "anbu/verification/quotation_verification.md",
+      "description": "Quotation Verification: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "198",
+        "200",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "200",
+      "filename": "translation_verification.md",
+      "division": "verification",
+      "path": "anbu/verification/translation_verification.md",
+      "description": "Translation Verification: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "199",
+        "201",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "201",
+      "filename": "conflicting_evidence_resolution.md",
+      "division": "verification",
+      "path": "anbu/verification/conflicting_evidence_resolution.md",
+      "description": "Conflicting Evidence Resolution: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "200",
+        "202",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "202",
+      "filename": "source_bias_assessment.md",
+      "division": "verification",
+      "path": "anbu/verification/source_bias_assessment.md",
+      "description": "Source Bias Assessment: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "201",
+        "203",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "203",
+      "filename": "evidence_confidence_scoring.md",
+      "division": "verification",
+      "path": "anbu/verification/evidence_confidence_scoring.md",
+      "description": "Evidence Confidence Scoring: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "202",
+        "204",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "204",
+      "filename": "source_citation_standards.md",
+      "division": "verification",
+      "path": "anbu/verification/source_citation_standards.md",
+      "description": "Source Citation Standards: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "203",
+        "205",
+        "206",
+        "207",
+        "256",
+        "257"
+      ]
+    },
+    {
+      "id": "205",
+      "filename": "verification_audit_trail.md",
+      "division": "verification",
+      "path": "anbu/verification/verification_audit_trail.md",
+      "description": "Verification Audit Trail: methods, reference material, and analytical guidance for the verification division.",
+      "cross_references": [
+        "146",
+        "147",
+        "204",
+        "206",
+        "207",
+        "256",
+        "257",
+        "276"
+      ]
+    },
+    {
+      "id": "206",
+      "filename": "analytical_reasoning.md",
+      "division": "analytics",
+      "path": "anbu/analytics/analytical_reasoning.md",
+      "description": "Analytical Reasoning: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "207",
+      "filename": "structured_analytic_techniques.md",
+      "division": "analytics",
+      "path": "anbu/analytics/structured_analytic_techniques.md",
+      "description": "Structured Analytic Techniques: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "208",
+      "filename": "analysis_of_competing_hypotheses.md",
+      "division": "analytics",
+      "path": "anbu/analytics/analysis_of_competing_hypotheses.md",
+      "description": "Analysis Of Competing Hypotheses: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "209",
+      "filename": "key_assumptions_check.md",
+      "division": "analytics",
+      "path": "anbu/analytics/key_assumptions_check.md",
+      "description": "Key Assumptions Check: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "210",
+      "filename": "indicators_and_signposts.md",
+      "division": "analytics",
+      "path": "anbu/analytics/indicators_and_signposts.md",
+      "description": "Indicators And Signposts: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "211",
+      "filename": "hypothesis_testing.md",
+      "division": "analytics",
+      "path": "anbu/analytics/hypothesis_testing.md",
+      "description": "Hypothesis Testing: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "212",
+      "filename": "causal_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/causal_analysis.md",
+      "description": "Causal Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "213",
+      "filename": "correlation_vs_causation.md",
+      "division": "analytics",
+      "path": "anbu/analytics/correlation_vs_causation.md",
+      "description": "Correlation VS Causation: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "214",
+      "filename": "trend_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/trend_analysis.md",
+      "description": "Trend Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "215",
+      "filename": "pattern_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/pattern_analysis.md",
+      "description": "Pattern Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "216",
+      "filename": "timeline_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/timeline_analysis.md",
+      "description": "Timeline Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "217",
+      "filename": "network_analysis_public_data.md",
+      "division": "analytics",
+      "path": "anbu/analytics/network_analysis_public_data.md",
+      "description": "Network Analysis Public Data: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "218",
+      "filename": "institutional_relationship_mapping.md",
+      "division": "analytics",
+      "path": "anbu/analytics/institutional_relationship_mapping.md",
+      "description": "Institutional Relationship Mapping: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "219",
+      "filename": "stakeholder_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/stakeholder_analysis.md",
+      "description": "Stakeholder Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "220",
+      "filename": "power_structure_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/power_structure_analysis.md",
+      "description": "Power Structure Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "221",
+      "filename": "influence_network_assessment.md",
+      "division": "analytics",
+      "path": "anbu/analytics/influence_network_assessment.md",
+      "description": "Influence Network Assessment: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "222",
+      "filename": "political_economy_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/political_economy_analysis.md",
+      "description": "Political Economy Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "223",
+      "filename": "strategic_intent_assessment.md",
+      "division": "analytics",
+      "path": "anbu/analytics/strategic_intent_assessment.md",
+      "description": "Strategic Intent Assessment: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "224",
+      "filename": "capability_assessment.md",
+      "division": "analytics",
+      "path": "anbu/analytics/capability_assessment.md",
+      "description": "Capability Assessment: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "225",
+      "filename": "risk_probability_assessment.md",
+      "division": "analytics",
+      "path": "anbu/analytics/risk_probability_assessment.md",
+      "description": "Risk Probability Assessment: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "226",
+      "filename": "impact_assessment.md",
+      "division": "analytics",
+      "path": "anbu/analytics/impact_assessment.md",
+      "description": "Impact Assessment: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "227",
+      "filename": "red_team_analytical_review.md",
+      "division": "analytics",
+      "path": "anbu/analytics/red_team_analytical_review.md",
+      "description": "Red Team Analytical Review: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "228",
+      "filename": "alternative_explanations.md",
+      "division": "analytics",
+      "path": "anbu/analytics/alternative_explanations.md",
+      "description": "Alternative Explanations: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "229",
+      "filename": "cognitive_bias_mitigation.md",
+      "division": "analytics",
+      "path": "anbu/analytics/cognitive_bias_mitigation.md",
+      "description": "Cognitive Bias Mitigation: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "230",
+      "filename": "analytical_confidence_language.md",
+      "division": "analytics",
+      "path": "anbu/analytics/analytical_confidence_language.md",
+      "description": "Analytical Confidence Language: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "231",
+      "filename": "intelligence_gap_assessment.md",
+      "division": "analytics",
+      "path": "anbu/analytics/intelligence_gap_assessment.md",
+      "description": "Intelligence Gap Assessment: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "232",
+      "filename": "intelligence_synthesis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/intelligence_synthesis.md",
+      "description": "Intelligence Synthesis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "233",
+      "filename": "multi_source_intelligence_fusion.md",
+      "division": "analytics",
+      "path": "anbu/analytics/multi_source_intelligence_fusion.md",
+      "description": "Multi Source Intelligence Fusion: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "234",
+      "filename": "strategic_warning_analysis.md",
+      "division": "analytics",
+      "path": "anbu/analytics/strategic_warning_analysis.md",
+      "description": "Strategic Warning Analysis: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "235",
+      "filename": "analytical_quality_control.md",
+      "division": "analytics",
+      "path": "anbu/analytics/analytical_quality_control.md",
+      "description": "Analytical Quality Control: methods, reference material, and analytical guidance for the analytics division.",
+      "cross_references": [
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082",
+        "111",
+        "112"
+      ]
+    },
+    {
+      "id": "236",
+      "filename": "geospatial_intelligence_overview.md",
+      "division": "geoint",
+      "path": "anbu/geoint/geospatial_intelligence_overview.md",
+      "description": "Geospatial Intelligence Overview: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "237",
+      "filename": "geographic_context_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/geographic_context_analysis.md",
+      "description": "Geographic Context Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "238",
+      "filename": "public_map_research.md",
+      "division": "geoint",
+      "path": "anbu/geoint/public_map_research.md",
+      "description": "Public Map Research: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "239",
+      "filename": "open_geospatial_data.md",
+      "division": "geoint",
+      "path": "anbu/geoint/open_geospatial_data.md",
+      "description": "Open Geospatial Data: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "240",
+      "filename": "geographic_information_systems.md",
+      "division": "geoint",
+      "path": "anbu/geoint/geographic_information_systems.md",
+      "description": "Geographic Information Systems: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "241",
+      "filename": "public_satellite_data_sources.md",
+      "division": "geoint",
+      "path": "anbu/geoint/public_satellite_data_sources.md",
+      "description": "Public Satellite Data Sources: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "242",
+      "filename": "historical_satellite_comparison.md",
+      "division": "geoint",
+      "path": "anbu/geoint/historical_satellite_comparison.md",
+      "description": "Historical Satellite Comparison: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "243",
+      "filename": "land_use_change_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/land_use_change_analysis.md",
+      "description": "Land Use Change Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "244",
+      "filename": "infrastructure_geography.md",
+      "division": "geoint",
+      "path": "anbu/geoint/infrastructure_geography.md",
+      "description": "Infrastructure Geography: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "245",
+      "filename": "transportation_network_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/transportation_network_analysis.md",
+      "description": "Transportation Network Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "246",
+      "filename": "maritime_geographic_context.md",
+      "division": "geoint",
+      "path": "anbu/geoint/maritime_geographic_context.md",
+      "description": "Maritime Geographic Context: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "247",
+      "filename": "border_geography_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/border_geography_analysis.md",
+      "description": "Border Geography Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "248",
+      "filename": "terrain_context_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/terrain_context_analysis.md",
+      "description": "Terrain Context Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "249",
+      "filename": "population_geography.md",
+      "division": "geoint",
+      "path": "anbu/geoint/population_geography.md",
+      "description": "Population Geography: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "250",
+      "filename": "urban_development_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/urban_development_analysis.md",
+      "description": "Urban Development Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "251",
+      "filename": "disaster_geospatial_assessment.md",
+      "division": "geoint",
+      "path": "anbu/geoint/disaster_geospatial_assessment.md",
+      "description": "Disaster Geospatial Assessment: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "252",
+      "filename": "environmental_change_analysis.md",
+      "division": "geoint",
+      "path": "anbu/geoint/environmental_change_analysis.md",
+      "description": "Environmental Change Analysis: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "253",
+      "filename": "geospatial_source_verification.md",
+      "division": "geoint",
+      "path": "anbu/geoint/geospatial_source_verification.md",
+      "description": "Geospatial Source Verification: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "254",
+      "filename": "geospatial_uncertainty_management.md",
+      "division": "geoint",
+      "path": "anbu/geoint/geospatial_uncertainty_management.md",
+      "description": "Geospatial Uncertainty Management: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "255",
+      "filename": "geospatial_ethics_and_safety.md",
+      "division": "geoint",
+      "path": "anbu/geoint/geospatial_ethics_and_safety.md",
+      "description": "Geospatial Ethics And Safety: methods, reference material, and analytical guidance for the geoint division.",
+      "cross_references": [
+        "046",
+        "047",
+        "111",
+        "112",
+        "146",
+        "147",
+        "181",
+        "182"
+      ]
+    },
+    {
+      "id": "256",
+      "filename": "international_law_framework.md",
+      "division": "legal",
+      "path": "anbu/legal/international_law_framework.md",
+      "description": "International Law Framework: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "257",
+        "276"
+      ]
+    },
+    {
+      "id": "257",
+      "filename": "national_law_research.md",
+      "division": "legal",
+      "path": "anbu/legal/national_law_research.md",
+      "description": "National Law Research: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "256",
+        "258"
+      ]
+    },
+    {
+      "id": "258",
+      "filename": "human_rights_framework.md",
+      "division": "legal",
+      "path": "anbu/legal/human_rights_framework.md",
+      "description": "Human Rights Framework: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "257",
+        "259"
+      ]
+    },
+    {
+      "id": "259",
+      "filename": "international_humanitarian_law.md",
+      "division": "legal",
+      "path": "anbu/legal/international_humanitarian_law.md",
+      "description": "International Humanitarian Law: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "258",
+        "260"
+      ]
+    },
+    {
+      "id": "260",
+      "filename": "sovereignty_and_jurisdiction.md",
+      "division": "legal",
+      "path": "anbu/legal/sovereignty_and_jurisdiction.md",
+      "description": "Sovereignty And Jurisdiction: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "259",
+        "261"
+      ]
+    },
+    {
+      "id": "261",
+      "filename": "privacy_protection_framework.md",
+      "division": "legal",
+      "path": "anbu/legal/privacy_protection_framework.md",
+      "description": "Privacy Protection Framework: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "260",
+        "262"
+      ]
+    },
+    {
+      "id": "262",
+      "filename": "personal_data_minimization.md",
+      "division": "legal",
+      "path": "anbu/legal/personal_data_minimization.md",
+      "description": "Personal Data Minimization: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "261",
+        "263"
+      ]
+    },
+    {
+      "id": "263",
+      "filename": "public_information_law.md",
+      "division": "legal",
+      "path": "anbu/legal/public_information_law.md",
+      "description": "Public Information Law: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "262",
+        "264"
+      ]
+    },
+    {
+      "id": "264",
+      "filename": "freedom_of_information_research.md",
+      "division": "legal",
+      "path": "anbu/legal/freedom_of_information_research.md",
+      "description": "Freedom Of Information Research: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "263",
+        "265"
+      ]
+    },
+    {
+      "id": "265",
+      "filename": "lawful_osint_boundaries.md",
+      "division": "legal",
+      "path": "anbu/legal/lawful_osint_boundaries.md",
+      "description": "Lawful OSINT Boundaries: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "264",
+        "266"
+      ]
+    },
+    {
+      "id": "266",
+      "filename": "research_consent_and_ethics.md",
+      "division": "legal",
+      "path": "anbu/legal/research_consent_and_ethics.md",
+      "description": "Research Consent And Ethics: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "265",
+        "267"
+      ]
+    },
+    {
+      "id": "267",
+      "filename": "source_protection_policy.md",
+      "division": "legal",
+      "path": "anbu/legal/source_protection_policy.md",
+      "description": "Source Protection Policy: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "266",
+        "268"
+      ]
+    },
+    {
+      "id": "268",
+      "filename": "defamation_risk_management.md",
+      "division": "legal",
+      "path": "anbu/legal/defamation_risk_management.md",
+      "description": "Defamation Risk Management: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "267",
+        "269"
+      ]
+    },
+    {
+      "id": "269",
+      "filename": "political_neutrality_policy.md",
+      "division": "legal",
+      "path": "anbu/legal/political_neutrality_policy.md",
+      "description": "Political Neutrality Policy: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "268",
+        "270"
+      ]
+    },
+    {
+      "id": "270",
+      "filename": "military_information_safety.md",
+      "division": "legal",
+      "path": "anbu/legal/military_information_safety.md",
+      "description": "Military Information Safety: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "269",
+        "271"
+      ]
+    },
+    {
+      "id": "271",
+      "filename": "classified_information_exclusion.md",
+      "division": "legal",
+      "path": "anbu/legal/classified_information_exclusion.md",
+      "description": "Classified Information Exclusion: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "270",
+        "272"
+      ]
+    },
+    {
+      "id": "272",
+      "filename": "sensitive_information_handling.md",
+      "division": "legal",
+      "path": "anbu/legal/sensitive_information_handling.md",
+      "description": "Sensitive Information Handling: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "271",
+        "273"
+      ]
+    },
+    {
+      "id": "273",
+      "filename": "responsible_disclosure_policy.md",
+      "division": "legal",
+      "path": "anbu/legal/responsible_disclosure_policy.md",
+      "description": "Responsible Disclosure Policy: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "272",
+        "274"
+      ]
+    },
+    {
+      "id": "274",
+      "filename": "human_security_principles.md",
+      "division": "legal",
+      "path": "anbu/legal/human_security_principles.md",
+      "description": "Human Security Principles: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "273",
+        "275"
+      ]
+    },
+    {
+      "id": "275",
+      "filename": "ethical_review_checklist.md",
+      "division": "legal",
+      "path": "anbu/legal/ethical_review_checklist.md",
+      "description": "Ethical Review Checklist: methods, reference material, and analytical guidance for the legal division.",
+      "cross_references": [
+        "021",
+        "022",
+        "081",
+        "082",
+        "181",
+        "182",
+        "274",
+        "276"
+      ]
+    },
+    {
+      "id": "276",
+      "filename": "privacy_by_design.md",
+      "division": "security",
+      "path": "anbu/security/privacy_by_design.md",
+      "description": "Privacy By Design: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "277"
+      ]
+    },
+    {
+      "id": "277",
+      "filename": "data_minimization_protocol.md",
+      "division": "security",
+      "path": "anbu/security/data_minimization_protocol.md",
+      "description": "Data Minimization Protocol: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "276",
+        "278"
+      ]
+    },
+    {
+      "id": "278",
+      "filename": "secure_research_workflow.md",
+      "division": "security",
+      "path": "anbu/security/secure_research_workflow.md",
+      "description": "Secure Research Workflow: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "277",
+        "279"
+      ]
+    },
+    {
+      "id": "279",
+      "filename": "safe_public_source_handling.md",
+      "division": "security",
+      "path": "anbu/security/safe_public_source_handling.md",
+      "description": "Safe Public Source Handling: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "278",
+        "280"
+      ]
+    },
+    {
+      "id": "280",
+      "filename": "research_data_classification.md",
+      "division": "security",
+      "path": "anbu/security/research_data_classification.md",
+      "description": "Research Data Classification: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "279",
+        "281"
+      ]
+    },
+    {
+      "id": "281",
+      "filename": "sensitive_data_redaction.md",
+      "division": "security",
+      "path": "anbu/security/sensitive_data_redaction.md",
+      "description": "Sensitive Data Redaction: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "280",
+        "282"
+      ]
+    },
+    {
+      "id": "282",
+      "filename": "personal_identifier_protection.md",
+      "division": "security",
+      "path": "anbu/security/personal_identifier_protection.md",
+      "description": "Personal Identifier Protection: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "281",
+        "283"
+      ]
+    },
+    {
+      "id": "283",
+      "filename": "account_and_credential_safety.md",
+      "division": "security",
+      "path": "anbu/security/account_and_credential_safety.md",
+      "description": "Account And Credential Safety: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "282",
+        "284"
+      ]
+    },
+    {
+      "id": "284",
+      "filename": "secure_document_storage.md",
+      "division": "security",
+      "path": "anbu/security/secure_document_storage.md",
+      "description": "Secure Document Storage: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "283",
+        "285"
+      ]
+    },
+    {
+      "id": "285",
+      "filename": "evidence_integrity_management.md",
+      "division": "security",
+      "path": "anbu/security/evidence_integrity_management.md",
+      "description": "Evidence Integrity Management: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "284",
+        "286"
+      ]
+    },
+    {
+      "id": "286",
+      "filename": "audit_log_management.md",
+      "division": "security",
+      "path": "anbu/security/audit_log_management.md",
+      "description": "Audit Log Management: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "285",
+        "287"
+      ]
+    },
+    {
+      "id": "287",
+      "filename": "access_control_principles.md",
+      "division": "security",
+      "path": "anbu/security/access_control_principles.md",
+      "description": "Access Control Principles: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "286",
+        "288"
+      ]
+    },
+    {
+      "id": "288",
+      "filename": "third_party_tool_assessment.md",
+      "division": "security",
+      "path": "anbu/security/third_party_tool_assessment.md",
+      "description": "Third Party Tool Assessment: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "287",
+        "289"
+      ]
+    },
+    {
+      "id": "289",
+      "filename": "malicious_content_handling.md",
+      "division": "security",
+      "path": "anbu/security/malicious_content_handling.md",
+      "description": "Malicious Content Handling: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "288",
+        "290"
+      ]
+    },
+    {
+      "id": "290",
+      "filename": "cyber_safety_boundaries.md",
+      "division": "security",
+      "path": "anbu/security/cyber_safety_boundaries.md",
+      "description": "Cyber Safety Boundaries: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "289",
+        "291"
+      ]
+    },
+    {
+      "id": "291",
+      "filename": "operational_security_boundaries.md",
+      "division": "security",
+      "path": "anbu/security/operational_security_boundaries.md",
+      "description": "Operational Security Boundaries: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "290",
+        "292"
+      ]
+    },
+    {
+      "id": "292",
+      "filename": "doxxing_prevention.md",
+      "division": "security",
+      "path": "anbu/security/doxxing_prevention.md",
+      "description": "DOXXING Prevention: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "291",
+        "293"
+      ]
+    },
+    {
+      "id": "293",
+      "filename": "surveillance_abuse_prevention.md",
+      "division": "security",
+      "path": "anbu/security/surveillance_abuse_prevention.md",
+      "description": "Surveillance Abuse Prevention: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "292",
+        "294"
+      ]
+    },
+    {
+      "id": "294",
+      "filename": "targeting_and_harm_prevention.md",
+      "division": "security",
+      "path": "anbu/security/targeting_and_harm_prevention.md",
+      "description": "Targeting And Harm Prevention: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "293",
+        "295"
+      ]
+    },
+    {
+      "id": "295",
+      "filename": "safety_escalation_protocol.md",
+      "division": "security",
+      "path": "anbu/security/safety_escalation_protocol.md",
+      "description": "Safety Escalation Protocol: methods, reference material, and analytical guidance for the security division.",
+      "cross_references": [
+        "146",
+        "147",
+        "181",
+        "182",
+        "256",
+        "257",
+        "294"
+      ]
+    },
+    {
+      "id": "296",
+      "filename": "executive_intelligence_brief.md",
+      "division": "reporting",
+      "path": "anbu/reporting/executive_intelligence_brief.md",
+      "description": "Executive Intelligence Brief: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "297",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "297",
+      "filename": "strategic_intelligence_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/strategic_intelligence_report.md",
+      "description": "Strategic Intelligence Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "296",
+        "298",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "298",
+      "filename": "political_intelligence_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/political_intelligence_report.md",
+      "description": "Political Intelligence Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "297",
+        "299",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "299",
+      "filename": "military_defense_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/military_defense_report.md",
+      "description": "Military Defense Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "298",
+        "300",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "300",
+      "filename": "geopolitical_assessment_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/geopolitical_assessment_report.md",
+      "description": "Geopolitical Assessment Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "299",
+        "301",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "301",
+      "filename": "government_institution_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/government_institution_report.md",
+      "description": "Government Institution Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "300",
+        "302",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "302",
+      "filename": "country_profile_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/country_profile_report.md",
+      "description": "Country Profile Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "301",
+        "303",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "303",
+      "filename": "country_comparison_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/country_comparison_report.md",
+      "description": "Country Comparison Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "302",
+        "304",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "304",
+      "filename": "conflict_analysis_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/conflict_analysis_report.md",
+      "description": "Conflict Analysis Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "303",
+        "305",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "305",
+      "filename": "defense_budget_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/defense_budget_report.md",
+      "description": "Defense Budget Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "304",
+        "306",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "306",
+      "filename": "policy_assessment_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/policy_assessment_report.md",
+      "description": "Policy Assessment Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "305",
+        "307",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "307",
+      "filename": "intelligence_gap_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/intelligence_gap_report.md",
+      "description": "Intelligence Gap Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "306",
+        "308",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "308",
+      "filename": "source_verification_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/source_verification_report.md",
+      "description": "Source Verification Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "307",
+        "309",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "309",
+      "filename": "early_warning_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/early_warning_report.md",
+      "description": "Early Warning Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "308",
+        "310",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "310",
+      "filename": "scenario_analysis_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/scenario_analysis_report.md",
+      "description": "Scenario Analysis Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "309",
+        "311",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "311",
+      "filename": "risk_assessment_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/risk_assessment_report.md",
+      "description": "Risk Assessment Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "310",
+        "312",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "312",
+      "filename": "leadership_public_record_profile.md",
+      "division": "reporting",
+      "path": "anbu/reporting/leadership_public_record_profile.md",
+      "description": "Leadership Public Record Profile: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "311",
+        "313",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "313",
+      "filename": "institutional_network_report.md",
+      "division": "reporting",
+      "path": "anbu/reporting/institutional_network_report.md",
+      "description": "Institutional Network Report: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "312",
+        "314",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "314",
+      "filename": "intelligence_dashboard_specification.md",
+      "division": "reporting",
+      "path": "anbu/reporting/intelligence_dashboard_specification.md",
+      "description": "Intelligence Dashboard Specification: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "313",
+        "315",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "315",
+      "filename": "reporting_quality_checklist.md",
+      "division": "reporting",
+      "path": "anbu/reporting/reporting_quality_checklist.md",
+      "description": "Reporting Quality Checklist: methods, reference material, and analytical guidance for the reporting division.",
+      "cross_references": [
+        "181",
+        "182",
+        "206",
+        "207",
+        "314",
+        "316",
+        "317"
+      ]
+    },
+    {
+      "id": "316",
+      "filename": "country_intelligence_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/country_intelligence_workflow.md",
+      "description": "Country Intelligence Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "317",
+      "filename": "political_crisis_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/political_crisis_workflow.md",
+      "description": "Political Crisis Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "318",
+      "filename": "government_transition_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/government_transition_workflow.md",
+      "description": "Government Transition Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "319",
+      "filename": "election_monitoring_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/election_monitoring_workflow.md",
+      "description": "Election Monitoring Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "320",
+      "filename": "defense_procurement_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/defense_procurement_workflow.md",
+      "description": "Defense Procurement Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "321",
+      "filename": "military_modernization_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/military_modernization_workflow.md",
+      "description": "Military Modernization Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "322",
+      "filename": "geopolitical_crisis_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/geopolitical_crisis_workflow.md",
+      "description": "Geopolitical Crisis Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "323",
+      "filename": "international_conflict_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/international_conflict_workflow.md",
+      "description": "International Conflict Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "324",
+      "filename": "diplomatic_development_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/diplomatic_development_workflow.md",
+      "description": "Diplomatic Development Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "325",
+      "filename": "public_policy_investigation_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/public_policy_investigation_workflow.md",
+      "description": "Public Policy Investigation Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "326",
+      "filename": "corruption_public_record_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/corruption_public_record_workflow.md",
+      "description": "Corruption Public Record Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "327",
+      "filename": "strategic_infrastructure_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/strategic_infrastructure_workflow.md",
+      "description": "Strategic Infrastructure Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "328",
+      "filename": "international_sanctions_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/international_sanctions_workflow.md",
+      "description": "International Sanctions Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "329",
+      "filename": "national_security_policy_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/national_security_policy_workflow.md",
+      "description": "National Security Policy Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "330",
+      "filename": "public_disinformation_investigation.md",
+      "division": "workflows",
+      "path": "anbu/workflows/public_disinformation_investigation.md",
+      "description": "Public Disinformation Investigation: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "331",
+      "filename": "strategic_forecasting_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/strategic_forecasting_workflow.md",
+      "description": "Strategic Forecasting Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "332",
+      "filename": "multi_country_comparison_workflow.md",
+      "division": "workflows",
+      "path": "anbu/workflows/multi_country_comparison_workflow.md",
+      "description": "Multi Country Comparison Workflow: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    },
+    {
+      "id": "333",
+      "filename": "comprehensive_intelligence_assessment.md",
+      "division": "workflows",
+      "path": "anbu/workflows/comprehensive_intelligence_assessment.md",
+      "description": "Comprehensive Intelligence Assessment: methods, reference material, and analytical guidance for the workflows division.",
+      "cross_references": [
+        "002",
+        "003",
+        "021",
+        "022",
+        "046",
+        "047",
+        "081",
+        "082"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-labelledby="t d">
+<title id="t">ANBU Emblem</title>
+<desc id="d">Circular ANBU seal: Advanced National and Bureaucratic Understanding. Dark navy and obsidian with muted gold and jade accents.</desc>
+<defs>
+  <radialGradient id="sealBg" cx="0.5" cy="0.42" r="0.75">
+    <stop offset="0" stop-color="#12294a"/>
+    <stop offset="0.55" stop-color="#0a1628"/>
+    <stop offset="1" stop-color="#050a14"/>
+  </radialGradient>
+  <linearGradient id="goldRing" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#e8c96a"/>
+    <stop offset="0.5" stop-color="#c9a227"/>
+    <stop offset="1" stop-color="#8a6d1a"/>
+  </linearGradient>
+  <linearGradient id="goldText" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#f0d98c"/>
+    <stop offset="1" stop-color="#c9a227"/>
+  </linearGradient>
+</defs>
+
+<!-- outer glow -->
+<circle cx="400" cy="400" r="392" fill="#4a9d8e" opacity="0.05"/>
+
+<!-- seal body -->
+<circle cx="400" cy="400" r="380" fill="url(#sealBg)"/>
+<circle cx="400" cy="400" r="380" fill="none" stroke="url(#goldRing)" stroke-width="3"/>
+<circle cx="400" cy="400" r="368" fill="none" stroke="#c9a227" stroke-width="1" opacity="0.4"/>
+<circle cx="400" cy="400" r="352" fill="none" stroke="#4a9d8e" stroke-width="1" opacity="0.5" stroke-dasharray="3 6"/>
+
+<!-- tick marks around ring -->
+<g stroke="#c9a227" stroke-width="2" opacity="0.7">
+  <g id="ticks">
+    <line x1="400" y1="18" x2="400" y2="34"/>
+    <line x1="400" y1="766" x2="400" y2="782"/>
+    <line x1="18" y1="400" x2="34" y2="400"/>
+    <line x1="766" y1="400" x2="782" y2="400"/>
+    <line x1="130" y1="130" x2="142" y2="142"/>
+    <line x1="670" y1="670" x2="658" y2="658"/>
+    <line x1="670" y1="130" x2="658" y2="142"/>
+    <line x1="130" y1="670" x2="142" y2="658"/>
+  </g>
+</g>
+
+<!-- curved top text -->
+<defs>
+  <path id="arcTop" d="M 160 400 A 240 240 0 0 1 640 400" fill="none"/>
+  <path id="arcBot" d="M 190 400 A 210 210 0 0 0 610 400" fill="none"/>
+</defs>
+<text font-family="Georgia, serif" font-size="26" fill="#c9a227" letter-spacing="8" font-weight="bold">
+  <textPath href="#arcTop" startOffset="50%" text-anchor="middle">ANBU</textPath>
+</text>
+<text font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8fa3bf" letter-spacing="3">
+  <textPath href="#arcTop" startOffset="50%" text-anchor="middle" dy="22">OSINT INTELLIGENCE</textPath>
+</text>
+<text font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5f7391" letter-spacing="2">
+  <textPath href="#arcBot" startOffset="50%" text-anchor="middle">ADVANCED NATIONAL</textPath>
+</text>
+<text font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5f7391" letter-spacing="2">
+  <textPath href="#arcBot" startOffset="50%" text-anchor="middle" dy="-14">&amp; BUREAUCRATIC UNDERSTANDING</textPath>
+</text>
+
+<!-- central emblem: stylized anbu mon / structure-of-power mark -->
+<g transform="translate(400,400)">
+  <!-- five-point star structure: pentagon of nodes = structure of power -->
+  <g stroke="#4a9d8e" stroke-width="1.5" fill="none" opacity="0.9">
+    <polygon points="0,-90 85.6,-27.8 52.9,72.8 -52.9,72.8 -85.6,-27.8"/>
+    <polygon points="0,-58 54.9,-17.8 33.9,46.8 -33.9,46.8 -54.9,-17.8" stroke-dasharray="4 4" opacity="0.6"/>
+  </g>
+  <!-- nodes at vertices -->
+  <g fill="#c9a227">
+    <circle cx="0" cy="-90" r="5"/>
+    <circle cx="85.6" cy="-27.8" r="5"/>
+    <circle cx="52.9" cy="72.8" r="5"/>
+    <circle cx="-52.9" cy="72.8" r="5"/>
+    <circle cx="-85.6" cy="-27.8" r="5"/>
+  </g>
+  <!-- inner eye / aperture -->
+  <circle cx="0" cy="0" r="34" fill="#050a14" stroke="#c9a227" stroke-width="2"/>
+  <path d="M-22 0 Q0 -18 22 0 Q0 18 -22 0 Z" fill="none" stroke="#4a9d8e" stroke-width="2"/>
+  <circle cx="0" cy="0" r="7" fill="#c9a227"/>
+  <!-- rising lines = understanding -->
+  <g stroke="#c9a227" stroke-width="1.5" opacity="0.8">
+    <line x1="-120" y1="30" x2="-100" y2="10"/>
+    <line x1="-105" y1="38" x2="-85" y2="18"/>
+    <line x1="120" y1="30" x2="100" y2="10"/>
+    <line x1="105" y1="38" x2="85" y2="18"/>
+  </g>
+  <!-- small triangles (fire accents) -->
+  <path d="M-140 -60 l10 -18 l10 18 z" fill="#c0392b" opacity="0.8"/>
+  <path d="M140 -60 l-10 -18 l-10 18 z" fill="#c0392b" opacity="0.8"/>
+</g>
+
+<!-- bottom tagline -->
+<text x="400" y="648" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c9a227" letter-spacing="2" font-weight="bold">BEYOND INFORMATION</text>
+<text x="400" y="672" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8fa3bf" letter-spacing="3">UNDERSTAND THE STRUCTURE OF POWER</text>
+<line x1="240" y1="694" x2="560" y2="694" stroke="#4a9d8e" stroke-width="1" opacity="0.6"/>
+<text x="400" y="716" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#5f7391" letter-spacing="4">PUBLIC SOURCES ONLY · v1.0</text>
+
+<!-- five element micro-marks at base of seal -->
+<g transform="translate(400,742)" opacity="0.85">
+  <g transform="translate(-64,0)">
+    <rect x="-6" y="-12" width="12" height="12" fill="none" stroke="#4a9d8e" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#4a9d8e" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(-32,0)">
+    <path d="M0 -10 C-7 -4 -8 -12 0 -14 C8 -12 7 -4 0 -10 Z" fill="#c0392b"/>
+  </g>
+  <g transform="translate(0,0)">
+    <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+    <rect x="-3" y="-3" width="6" height="6" fill="#c9a227" opacity="0.7"/>
+  </g>
+  <g transform="translate(32,0)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#c9a227" stroke-width="1"/>
+  </g>
+  <g transform="translate(64,0)">
+    <path d="M-8 0 Q-4 -6 0 0 T8 0" fill="none" stroke="#4a9d8e" stroke-width="1.5"/>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,207 @@
+{
+  "skill": "ANBU OSINT",
+  "version": "1.0",
+  "description": "Key cross-division dependencies. Arrows read 'depends_on': a division consumes the outputs/frameworks of its dependencies.",
+  "dependencies": [
+    {
+      "division": "core",
+      "depends_on": [],
+      "provides_to": [
+        "all"
+      ],
+      "note": "Protocols, confidence model, evidence vocabulary, QA gates consumed by every division."
+    },
+    {
+      "division": "osint",
+      "depends_on": [
+        "core",
+        "legal",
+        "security"
+      ],
+      "provides_to": [
+        "verification",
+        "analytics",
+        "geoint",
+        "political",
+        "military",
+        "state",
+        "geopolitical"
+      ],
+      "note": "Collection output feeds verification and all domain divisions."
+    },
+    {
+      "division": "verification",
+      "depends_on": [
+        "osint",
+        "core",
+        "legal",
+        "security"
+      ],
+      "provides_to": [
+        "analytics",
+        "reporting",
+        "workflows"
+      ],
+      "note": "Graded, corroborated evidence is the input to analysis."
+    },
+    {
+      "division": "analytics",
+      "depends_on": [
+        "verification",
+        "core"
+      ],
+      "provides_to": [
+        "political",
+        "military",
+        "state",
+        "geopolitical",
+        "reporting",
+        "workflows"
+      ],
+      "note": "Structured techniques, ACH, forecasting applied to verified evidence."
+    },
+    {
+      "division": "geoint",
+      "depends_on": [
+        "osint",
+        "verification",
+        "security"
+      ],
+      "provides_to": [
+        "military",
+        "geopolitical",
+        "reporting"
+      ],
+      "note": "Geospatial context and satellite/imagery analysis."
+    },
+    {
+      "division": "political",
+      "depends_on": [
+        "osint",
+        "verification",
+        "analytics",
+        "legal"
+      ],
+      "provides_to": [
+        "state",
+        "geopolitical",
+        "reporting",
+        "workflows"
+      ],
+      "note": "Political system, parties, elections, public opinion."
+    },
+    {
+      "division": "military",
+      "depends_on": [
+        "osint",
+        "verification",
+        "analytics",
+        "geoint",
+        "legal",
+        "security"
+      ],
+      "provides_to": [
+        "geopolitical",
+        "security",
+        "reporting",
+        "workflows"
+      ],
+      "note": "Force posture, procurement, doctrine, exercises."
+    },
+    {
+      "department": null,
+      "division": "state",
+      "depends_on": [
+        "osint",
+        "verification",
+        "analytics",
+        "legal",
+        "security"
+      ],
+      "provides_to": [
+        "political",
+        "geopolitical",
+        "reporting",
+        "workflows"
+      ],
+      "note": "Institutions, bureaucracy, budget, public administration."
+    },
+    {
+      "division": "geopolitical",
+      "depends_on": [
+        "political",
+        "military",
+        "state",
+        "geoint",
+        "analytics",
+        "verification"
+      ],
+      "provides_to": [
+        "reporting",
+        "workflows"
+      ],
+      "note": "Alliances, conflicts, sanctions, strategic balances; synthesis layer."
+    },
+    {
+      "division": "legal",
+      "depends_on": [
+        "core"
+      ],
+      "provides_to": [
+        "osint",
+        "security",
+        "verification",
+        "all"
+      ],
+      "note": "Lawful boundaries, FOI, privacy, ethics constraints on all collection."
+    },
+    {
+      "division": "security",
+      "depends_on": [
+        "legal",
+        "core"
+      ],
+      "provides_to": [
+        "osint",
+        "verification",
+        "all"
+      ],
+      "note": "OPSEC, data protection, harm prevention guardrails."
+    },
+    {
+      "division": "reporting",
+      "depends_on": [
+        "analytics",
+        "verification",
+        "core"
+      ],
+      "provides_to": [
+        "workflows"
+      ],
+      "note": "Product formats, templates, quality checklist for final output."
+    },
+    {
+      "division": "workflows",
+      "depends_on": [
+        "core",
+        "osint",
+        "verification",
+        "analytics",
+        "reporting"
+      ],
+      "provides_to": [
+        "all"
+      ],
+      "note": "End-to-end pipelines composing divisions into repeatable procedures."
+    }
+  ],
+  "critical_path": [
+    "user_query",
+    "core/task_classification",
+    "osint/collection",
+    "verification/grading",
+    "analytics/analysis",
+    "legal+security gates",
+    "reporting/product"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "skill": "ANBU OSINT",
+  "version": "1.0",
+  "total_files": 333,
+  "divisions": [
+    {
+      "id": "001",
+      "division": "core",
+      "name": "Core Doctrine & Protocols",
+      "path": "anbu/core/",
+      "file_count": 20,
+      "id_range": "001-020",
+      "role": "entry point and system doctrine"
+    },
+    {
+      "id": "021",
+      "division": "political",
+      "name": "Political Analysis",
+      "path": "anbu/political/",
+      "file_count": 25,
+      "id_range": "021-045",
+      "role": "analysis domain"
+    },
+    {
+      "id": "046",
+      "division": "military",
+      "name": "Military & Defense",
+      "path": "anbu/military/",
+      "file_count": 35,
+      "id_range": "046-080",
+      "role": "analysis domain"
+    },
+    {
+      "id": "081",
+      "division": "state",
+      "name": "State & Governance",
+      "path": "anbu/state/",
+      "file_count": 30,
+      "id_range": "081-110",
+      "role": "analysis domain"
+    },
+    {
+      "id": "111",
+      "division": "geopolitical",
+      "name": "Geopolitical Strategy",
+      "path": "anbu/geopolitical/",
+      "file_count": 35,
+      "id_range": "111-145",
+      "role": "analysis domain"
+    },
+    {
+      "id": "146",
+      "division": "osint",
+      "name": "OSINT Collection",
+      "path": "anbu/osint/",
+      "file_count": 35,
+      "id_range": "146-180",
+      "role": "analysis domain"
+    },
+    {
+      "id": "181",
+      "division": "verification",
+      "name": "Source Verification",
+      "path": "anbu/verification/",
+      "file_count": 25,
+      "id_range": "181-205",
+      "role": "analysis domain"
+    },
+    {
+      "id": "206",
+      "division": "analytics",
+      "name": "Analytics & Forecasting",
+      "path": "anbu/analytics/",
+      "file_count": 30,
+      "id_range": "206-235",
+      "role": "analysis domain"
+    },
+    {
+      "id": "236",
+      "division": "geoint",
+      "name": "Geospatial Intelligence",
+      "path": "anbu/geoint/",
+      "file_count": 20,
+      "id_range": "236-255",
+      "role": "analysis domain"
+    },
+    {
+      "id": "256",
+      "division": "legal",
+      "name": "Legal & Ethics",
+      "path": "anbu/legal/",
+      "file_count": 20,
+      "id_range": "256-275",
+      "role": "analysis domain"
+    },
+    {
+      "id": "276",
+      "division": "security",
+      "name": "Security & Safety",
+      "path": "anbu/security/",
+      "file_count": 20,
+      "id_range": "276-295",
+      "role": "analysis domain"
+    },
+    {
+      "id": "296",
+      "division": "reporting",
+      "name": "Reporting & Dissemination",
+      "path": "anbu/reporting/",
+      "file_count": 20,
+      "id_range": "296-315",
+      "role": "analysis domain"
+    },
+    {
+      "id": "316",
+      "division": "workflows",
+      "name": "Operational Workflows",
+      "path": "anbu/workflows/",
+      "file_count": 18,
+      "id_range": "316-333",
+      "role": "analysis domain"
+    },
+    {
+      "id": "014",
+      "division": "manifests",
+      "name": "System Manifests",
+      "path": "anbu/manifests/",
+      "file_count": 4,
+      "id_range": "\u2014",
+      "role": "inventories, dependency graphs, safety boundaries, versioning"
+    },
+    {
+      "id": "015",
+      "division": "reserved",
+      "name": "Reserved",
+      "path": "\u2014",
+      "file_count": 0,
+      "id_range": "\u2014",
+      "role": "future expansion"
+    }
+  ]
+}
