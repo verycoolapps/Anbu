@@ -1,3 +1,8 @@
+---
+name: anbu
+description: Advanced National & Bureaucratic Understanding — public-source OSINT strategic intelligence engine. Use for political, military (open-source), state/government, geopolitical, OSINT collection, verification, analytics, geoint, legal/ethics, security, reporting, and forecasting analysis. Public sources only; never classified access, targeting, doxxing, or operational military harm.
+---
+
 # ANBU OSINT — Advanced National & Bureaucratic Understanding
 
 **Entry Point · Modular Progressive Disclosure · v1.0**
